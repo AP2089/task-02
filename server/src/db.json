@@ -1,0 +1,97 @@
+{
+  "documents-nested": [
+    {
+      "id": 1,
+      "title": "Обязательные для всех",
+      "description": "Документы, обязательные для всех сотрудников без исключения",
+      "colors": ["#FF238D", "#FFB800", "#FF8D23"],
+      "required": false,
+      "children": [
+        {
+          "id": 2,
+          "title": "Паспорт",
+          "description": "Для всех",
+          "colors": ["#00C2FF"],
+          "required": true,
+          "children": null
+        },
+        {
+          "id": 3,
+          "title": "ИНН",
+          "description": "Для всех",
+          "colors": null,
+          "required": true,
+          "children": null
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Обязательные для трудоустройства",
+      "description": "Документы, без которых невозможно трудоустройство человека на какую бы то ни было должность в компании вне зависимости от граж",
+      "colors": null,
+      "required": false,
+      "children": [
+        {
+          "id": 5,
+          "title": "Паспорт 2",
+          "description": "Для всех 2",
+          "colors": ["#00C2FF"],
+          "required": true,
+          "children": null
+        },
+        {
+          "id": 6,
+          "title": "ИНН 2",
+          "description": "Для всех 2",
+          "colors": null,
+          "required": true,
+          "children": null
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Специальные",
+      "description": null,
+      "colors": null,
+      "required": false,
+      "children": [
+        {
+          "id": 8,
+          "title": "Паспорт 3",
+          "description": "Для всех 3",
+          "colors": ["#00C2FF"],
+          "required": true,
+          "children": null
+        }
+      ]
+    }
+  ],
+  "documents-list": [
+    {
+      "id": 9,
+      "title": "Тестовое задание кандидата",
+      "description": "Россия, Белоруссия, Украина, администратор филиала, повар-сушист, повар-пиццмейкер, повар горячего цеха",
+      "colors": null,
+      "required": false,
+      "children": null
+    },
+    {
+      "id": 10,
+      "title": "Трудовой договор",
+      "description": null,
+      "colors": ["#0066FF", "#8E9CBB"],
+      "required": false,
+      "children": null
+    },
+    {
+      "id": 11,
+      "title": "Мед. книжка",
+      "description": null,
+      "colors": null,
+      "required": false,
+      "children": null
+    }
+  ]
+}
